@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "mysql2": "^3.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -24,5 +29,18 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DochianDenis/weatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DochianDenis/weatherApp/issues"
+  },
+  "homepage": "https://github.com/DochianDenis/weatherApp#readme"
 }
